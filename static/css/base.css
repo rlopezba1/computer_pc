@@ -28,9 +28,7 @@ body {
 }
 
 .shop-now-button {
-    background: black;
-    color: white;
-    min-width: 260px;
+   min-width: 2rem;
 }
 
 .btn-black {
@@ -55,6 +53,12 @@ body {
 .border-black {
     border: 1px solid black !important;
 }
+
+.jumbotron {
+	background-color: transparent;
+	width: 70%;
+}
+
 
 /* -------------------------------- Media Queries */
 
