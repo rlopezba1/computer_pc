@@ -17,10 +17,10 @@
                 Laptops
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Apple</a>
-                <a href="" class="dropdown-item">hewlett packard (HP)</a>
-                <a href="" class="dropdown-item">Lenovo</a>
-                <a href="" class="dropdown-item">Acer</a>
+                <a href="{% url 'products' %}?category=apple" class="dropdown-item">Apple</a>
+                <a href="{% url 'products' %}?category=hp" class="dropdown-item">HP</a>
+                <a href="{% url 'products' %}?category=lenovo" class="dropdown-item">Lenovo</a>
+                <a href="{% url 'products' %}?category=apple,hp,lenovo" class="dropdown-item">All Laptops</a>
             </div>
         </li>
 
@@ -29,9 +29,9 @@
                 Desktop PC
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Tower Desktop</a>
-                <a href="" class="dropdown-item">Gaming</a>
-                <a href="" class="dropdown-item">Apple Desktop</a>
+                <a href="{% url 'products' %}?category=tower_desktop" class="dropdown-item">Tower Desktop</a>
+                <a href="{% url 'products' %}?category=gaming" class="dropdown-item">Gaming</a>
+                <a href="{% url 'products' %}?category=tower_desktop,gaming" class="dropdown-item">All Desktop and Gaming</a>
             </div>
         </li>
 
@@ -40,10 +40,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
