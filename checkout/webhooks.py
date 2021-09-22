@@ -35,7 +35,7 @@ def webhook(request):
         return HttpResponse(content=e, status=400)
 
     print('Success!')
-    return HttpResponse(status=200)
+    # return HttpResponse(status=200)
 
     # Set up a webhook handler
     handler = StripeWH_Handler(request)
@@ -51,7 +51,9 @@ def webhook(request):
 
     # If there's a handler for it, get it from the event map
     # Use the generic one by default
+    print("ADDED BY JO: EVENT TYPE ON LINE 50 = ", event_type)
     event_handler = event_map.get(event_type, handler.handle_event)
+    print("ADDED BY JO: EVENT_HANDLER on line 55 = ", event_handler)
 
     # Call the event handler with the event
     response = event_handler(event)
