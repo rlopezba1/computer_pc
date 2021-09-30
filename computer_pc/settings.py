@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-uewmjz6z8_g74^j+1s@tr*@26eb$yxsdz6y+vzgxmr$qk^7g&m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ruben-computer-pc.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -123,16 +123,21 @@ WSGI_APPLICATION = 'computer_pc.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
 
-DATABASES = {
-    'default': dj_database_url.parse('postgres://dqcsppjyyydosd:89c1f5abc8ea7588618f052e28f300095952bd997cf54c2cbd6669734e18d6d2@ec2-52-208-221-89.eu-west-1.compute.amazonaws.com:5432/dbdkep1l1vnel7')
-}
+# DATABASES = {
+#     'default': dj_database_url.parse('postgres://dqcsppjyyydosd:89c1f5abc8ea7588618f052e28f300095952bd997cf54c2cbd6669734e18d6d2@ec2-52-208-221-89.eu-west-1.compute.amazonaws.com:5432/dbdkep1l1vnel7')
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
