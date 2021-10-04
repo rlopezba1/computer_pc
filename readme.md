@@ -4,11 +4,11 @@
 
 ![Computer PC Responsive Design](https://github.com/rlopezba1/cook_book/blob/master/static/img/responsive_img.png)
 
-*The Cook Book* is an online cookbook that helps people share recipes, create, edit or delete recipes. My goal with this project was to create an intuitive website, useful for people looking for cooking ideas and people who want to share their knowledge.
+*Computer PC* is a website that sells laptops, desktops, tablets, and monitors. My goal with this project was to create an intuitive website, useful for people looking for good deals and good products. There is also a current blog where you can leave your comments.
 
-I am a cooking and food lover. I like to cook and I always look for recipes on the internet that help me to better prepare the dishes.
+In our contemporary age, everyone needs computers and I believe that having a store with all these options always has a future.
 
-[Here the full project live.](https://cook-book-ruben.herokuapp.com/)
+[Here the full project live.](https://ruben-computer-pc.herokuapp.com/)
 
 ## Table of contents
 
