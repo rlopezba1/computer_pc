@@ -31,4 +31,4 @@ def view_about(request):
         'active_page': 'about',
     }
 
-    return render(request, 'contact.html', context) 
+    return render(request, 'about.html', context) 
