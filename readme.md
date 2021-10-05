@@ -2,7 +2,7 @@
 
 ## Code Institute: Milestone Project 4
 
-![Computer PC Responsive Design](https://github.com/rlopezba1/cook_book/blob/master/static/img/responsive_img.png)
+![Computer PC Responsive Design](https://github.com/rlopezba1/computer_pc/blob/main/media/AmI_responsive.png)
 
 *Computer PC* is a website that sells laptops, desktops, tablets, and monitors. My goal with this project was to create an intuitive website, useful for people looking for good deals and good products. There is also a current blog where you can leave your comments.
 
@@ -179,6 +179,10 @@ In our contemporary age, everyone needs computers and I believe that having a st
 
 - [Heroku](https://www.heroku.com/)
 
+- [Django Central](https://djangocentral.com/)
+
+- [Boostrap](https://getbootstrap.com/)
+
 ### Additional tools
 
 
@@ -219,9 +223,9 @@ I manually tested the project on the following web browsers, checking that all a
 
 This project was developed using Gitpod as the chosen IDE and Github as a remote repository.
 
-The deployed project can be viewed on the following link: [The Cook Book: Live Website](https://cook-book-ruben.herokuapp.com/)
+The deployed project can be viewed on the following link: [The Cook Book: Live Website](https://ruben-computer-pc.herokuapp.com/)
 
-The project's GitHub repository can be viewed with the following link: [The Cook Book: Github Repository](https://github.com/rlopezba1/cook_book)
+The project's GitHub repository can be viewed with the following link: [The Cook Book: Github Repository](https://github.com/rlopezba1/computer_pc)
 
 
 
