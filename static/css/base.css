@@ -177,9 +177,17 @@ input[name='q']::placeholder {
 
 .about-section {
     padding: 50px;
+    margin: 0px 150px 0px 150px ;
     text-align: center;
     background-color: #474e5d;
     color: white;
+  }
+
+  .about-section2 {
+    padding: 50px;
+    margin: 0px 150px 0px 150px ;
+    text-align: center;
+   
   }
 
   .column {
