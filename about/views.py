@@ -22,7 +22,7 @@ def view_faqs(request):
         'questions': questions,
     }
 
-    return render(request, 'faqs.html', context) 
+    return render(request, 'faqs.html', context)
 
 
 def view_about(request):
@@ -31,4 +31,4 @@ def view_about(request):
         'active_page': 'about',
     }
 
-    return render(request, 'about.html', context) 
+    return render(request, 'about.html', context)
