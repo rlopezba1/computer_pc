@@ -280,13 +280,17 @@ input[name='q']::placeholder {
     padding-top: 10px;
 }
 
-img {
+/* img {
     height: 150px;
     width: 100px;
-}
+} */
 
 
 /* fixed top navbar only on medium and up */
+
+
+
+
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
@@ -298,6 +302,10 @@ img {
 
     .header-container {
         padding-top: 164px;
+    }
+    img {
+        height: 150px;
+        width: 100px;
     }
 }
 
