@@ -183,6 +183,12 @@ In our contemporary age, everyone needs computers and I believe that having a st
 
 - [Boostrap](https://getbootstrap.com/)
 
+- [Heroku](https://heroku.com)
+
+- [AWS-S3](https://aws.amazon.com/)
+
+- [Stripe](https://stripe.com/)
+
 ### Additional tools
 
 
@@ -223,9 +229,9 @@ I manually tested the project on the following web browsers, checking that all a
 
 This project was developed using Gitpod as the chosen IDE and Github as a remote repository.
 
-The deployed project can be viewed on the following link: [The Cook Book: Live Website](https://ruben-computer-pc.herokuapp.com/)
+The deployed project can be viewed on the following link: [Computer PC: Live Website](https://ruben-computer-pc.herokuapp.com/)
 
-The project's GitHub repository can be viewed with the following link: [The Cook Book: Github Repository](https://github.com/rlopezba1/computer_pc)
+The project's GitHub repository can be viewed with the following link: [Computer PC: Github Repository](https://github.com/rlopezba1/computer_pc)
 
 
 

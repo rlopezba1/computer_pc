@@ -16,3 +16,5 @@ class FAQ(models.Model):
 
     def get_friendly_name(self):
         return str(self.answer)
+
+        
