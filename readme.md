@@ -135,7 +135,7 @@ In our contemporary age, everyone needs computers and I believe that having a st
 
 #### Single product
 
-- This page shows the user the image of the product and caracteristics on a card.
+- This page shows the user the image of the product and caracteristics.
 
 
 #### Login
@@ -151,7 +151,7 @@ In our contemporary age, everyone needs computers and I believe that having a st
 
 ### Features Left to implement
 
-- There are still many potential implementations to be developed on this website, such as implementing recipe ratings to find out which ones have the most scores, or adding weekly menus.
+- There are still many potential implementations to be developed on this website, such as implementing product ratings to find out which ones have the most scores.
 
 ## Technologies Used
 
@@ -215,9 +215,9 @@ In our contemporary age, everyone needs computers and I believe that having a st
 - Checking responsiveness of design on all screen sizes
 - Manually testing the functionality of all links
 
-- [Validating HTML](https://github.com/rlopezba1/cook_book/blob/master/static/img/html_testing.png)
-- [Validating CSS](https://github.com/rlopezba1/cook_book/blob/master/static/img/css_validation.png)
-- [Validating JS](https://github.com/rlopezba1/cook_book/blob/master/static/img/js_validation.png)
+- [Validating HTML](https://github.com/rlopezba1/computer_pc/blob/main/media/html_validator.png)
+- [Validating CSS](https://github.com/rlopezba1/computer_pc/blob/main/media/css_validator.png)
+- [Validating Python](https://github.com/rlopezba1/computer_pc/blob/main/media/python_validator.png)
 
 
 I manually tested the project on the following web browsers, checking that all aspects worked :
